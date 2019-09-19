@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'CustomDatePicker_Example' do
+  pod 'CustomDatePicker', :path => '../'
+
+end
