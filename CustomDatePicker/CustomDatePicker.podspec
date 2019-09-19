@@ -32,9 +32,10 @@ appeared to be no other [good] way to accomplish that.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-	s.swift_versions = "5.0"
+  s.swift_versions = "5.0"
 
-  s.source_files = 'CustomDatePicker/Classes/**/*'
+  #s.source_files = 'CustomDatePicker/Classes/**/*'
+  s.source_files = 'CustomDatePicker/CustomDatePicker/Classes/*'
   
   # s.resource_bundles = {
   #   'CustomDatePicker' => ['CustomDatePicker/Assets/*.png']
